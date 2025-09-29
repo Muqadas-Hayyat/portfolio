@@ -114,7 +114,7 @@ function ContactForm() {
     <form ref={formRef} onSubmit={sendEmail} className="max-w-2xl mx-auto grid gap-6 text-left">
       <motion.input
         type="text"
-        name="from-name"
+        name="name"
         placeholder="Your Name"
         className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-indigo-500 outline-none"
       />
